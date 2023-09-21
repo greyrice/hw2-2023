@@ -78,8 +78,8 @@ div.green{
     margin-right: 50px;
     border-top: 2px inherit; 
     border-right: 5px inherit;
-    border-bottom: 3px inherit;
-    border-left: 3px inherit;
+    border-bottom: 0px;
+    border-left: 0px;
     
    
    
