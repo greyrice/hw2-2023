@@ -47,16 +47,16 @@ div.red{
     margin-left: 50px;
     border-bottom: 2px;
     border-left: 5px;
-    border-right: 0px;
-    border-top: 0px;
+    /* border-right: 0px;
+    border-top: 0px; */
 }
 
 div.blue{
     background-color: #00f;
     text-align: left;
     margin-right: 50px;
-    border-bottom: 0px;
-    border-left: 0px;
+    /* border-bottom: 0px;
+    border-left: 0px; */
     border-right: 5px;
     border-top: 2px;
 }
@@ -67,8 +67,8 @@ div.yellow{
     margin-left: 50px;
     border-bottom: 2px;
     border-left: 5px;
-    border-right: 0px;
-    border-top: 0px;
+    /* border-right: 0px;
+    border-top: 0px; */
     color: #707070;
 }  
 
@@ -76,14 +76,15 @@ div.green{
     background-color: #008500;
     text-align: left;
     margin-right: 50px;
+    /* border-left: 0px;
+    border-bottom: 0px; */
     border-top: 2px;
     border-right: 5px;
-    border-left: 0px;
-    border-bottom: 0px;
 }
 
 footer{
     background: linear-gradient(90deg, #000000 0%, #0000ff 25%, #0066ff 70%, #000000 100%);
+    border: 5px solid #ffffff;
 }
 
 footer p{
