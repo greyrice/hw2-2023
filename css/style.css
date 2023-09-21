@@ -1,5 +1,5 @@
 body{
-    font-family: Arial, Verdana, sans-serif;
+    font-family: Arial, Helvetica, Verdana, Geneva, Tahoma, sans-serif;
     background: #000000;
     color: #ffffff;
     margin: 20px 20px 0px 20px;
@@ -45,8 +45,8 @@ div.red{
     background-color: #f00;
     text-align: right;
     margin-left: 50px;
-    border-bottom: 2px;
-    border-left: 5px;
+    border-bottom: 2px inherit;
+    border-left: 5px inherit;
     /* border-right: 0px;
     border-top: 0px; */
 }
@@ -57,16 +57,16 @@ div.blue{
     margin-right: 50px;
     /* border-bottom: 0px;
     border-left: 0px; */
-    border-right: 5px;
-    border-top: 2px;
+    border-right: 5px inherit;
+    border-top: 2px inherit;
 }
 
 div.yellow{
     background-color: #ff0;
     text-align: right;
     margin-left: 50px;
-    border-bottom: 2px;
-    border-left: 5px;
+    border-bottom: 2px inherit;
+    border-left: 5px inherit;
     /* border-right: 0px;
     border-top: 0px; */
     color: #707070;
@@ -76,10 +76,15 @@ div.green{
     background-color: #008500;
     text-align: left;
     margin-right: 50px;
-    /* border-left: 0px;
-    border-bottom: 0px; */
-    border-top: 2px;
-    border-right: 5px;
+    border-top: 2px inherit; 
+    border-right: 5px inherit;
+    border-bottom: 3px inherit;
+    border-left: 3px inherit;
+    
+   
+   
+    
+    
 }
 
 footer{
@@ -100,3 +105,4 @@ div.blue h2{
 .blue p{
     color: #C4C4C4;
 }
+
