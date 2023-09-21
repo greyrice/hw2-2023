@@ -77,7 +77,8 @@ div{
     background-color: #008500;
     text-align: left;
     margin-right: 50px;
-    border: 2px 5px 0px 0px;
+    border-top: 2px;
+    border-right: 5px;
 }
 
 footer{
